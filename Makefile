@@ -1,2 +1,2 @@
 createmany:
-	gcc -Wall -Werror -o createmany createmany.c
+	gcc -Wall -Werror -pthread -o createmany createmany.c
